@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "drukwidecyr";
+  src: url("../../assets/fonts/drukwidecyr-bold.ttf");
+}
+
+.content_container {
+  margin: 49px 151px 110px;
+    .title {
+      margin: 0;
+      color: rgb(0, 0, 0);
+      font-family: 'drukwidecyr', sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 39px;
+      letter-spacing: 3.5%;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }

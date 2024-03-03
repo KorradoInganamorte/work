@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.wrapper_card {
+    width: fit-content;
+  .wrapper_icon {
+    img{
+        width: 124px;
+        height: 124px;
+    }
+  
+  }
+  .wrapper_name{
+    color: rgb(39, 39, 39);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+}

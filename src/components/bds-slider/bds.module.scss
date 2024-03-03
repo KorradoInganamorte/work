@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "drukwidecyr";
+  src: url("../../assets/fonts/drukwidecyr-bold.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+.wrapper_content {
+  position: relative;
+  width: 1080px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  .cake_picture {
+    top: -115px;
+    right: 75px;
+    position: absolute;
+  }
+
+  .wrapper_slaider {
+    padding-inline: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .btn:first-child {
+      transform: rotate(180deg);
+    }
+    .btn {
+      cursor: pointer;
+    }
+
+    .slaider {
+      padding-inline-start: 10px;
+      width: 90%;
+    }
+  }
+}

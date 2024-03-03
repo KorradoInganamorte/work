@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.custom_checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  input[type="radio"]:active{
+    outline: none;
+  }
+
+  .checkmark {
+    width: 31px;
+    height: 31px;
+    border-radius: 7px;
+    border: 2px solid #a208c9;
+    margin-right: 8px;
+    background-color: #fff;
+  }
+
+  input[type="radio"]:checked + .checkmark {
+    background-image: url("../../assets/images/checkbox.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .checkbox_label {
+    margin-left: 20px;
+    color: #9b9b9b;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.custom_checkbox:focus{
+outline: none;
+background: none;
+}

@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "drukwidecyr";
+  src: url("../../assets/fonts/drukwidecyr-bold.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.wrapper_content {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+
+  .second_column {
+    width: 505px;
+    .wrapper_user_info {
+      height: 920px;
+      padding-top: 22px;
+      margin-inline: 45px;
+      .user_photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .name {
+        color: rgb(0, 0, 0);
+        font-family: "drukwidecyr", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 1px;
+        text-align: center;
+      }
+
+      .bd {
+        margin-top: 7px;
+        color: rgb(39, 39, 39);
+        font-family: "Montserrat", sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+      }
+
+      .location {
+        margin-top: 10px;
+        color: rgb(39, 39, 39);
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+      }
+
+      .wrapper_links {
+        margin-inline: -15px;
+        margin-top: 48px;
+        .link {
+          display: flex;
+          align-items: center;
+          margin-bottom: 22px;
+          cursor: pointer;
+          .text {
+            color: rgb(39, 39, 39);
+            font-family: "Montserrat", sans-serif;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+            margin-left: 15px;
+          }
+        }
+      }
+
+      .wrapper_intrests {
+        margin-top: 120px;
+        .title {
+          color: rgb(0, 0, 0);
+          font-family: "drukwidecyr", sans-serif;
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 36px;
+          letter-spacing: 1px;
+          text-align: center;
+        }
+        .content {
+          margin-top: 30px;
+          color: rgb(0, 0, 0);
+          font-family: "Montserrat", sans-serif;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

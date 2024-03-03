@@ -1,0 +1,15 @@
+.wrapper_personal_account{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+
+    .confetti{
+        width: 94%;
+        margin: 0;
+        background: url('../../../assets/images/background_personal_account.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 35px 45px;
+        overflow-x: hidden;
+    }
+}

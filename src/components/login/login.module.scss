@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "drukwidecyr";
+  src: url("../../assets/fonts/drukwidecyr-bold.ttf");
+}
+
+.wrapper_form {
+  align-self: flex-start;
+  margin-right: 164px;
+  margin-top: 22px;
+
+  .title_form {
+    margin-top: 112px;
+    font-family: "drukwidecyr", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    margin-bottom: 73px;
+  }
+
+  .password_forgot {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    input {
+      width: 31px;
+      height: 31px;
+      border-radius: 7px;
+      border: 2px solid #a208c9;
+    }
+    margin-bottom: 60px;
+  }
+
+  .wrapper_btns{
+    margin-bottom: 75px;
+    display: flex;
+    
+    .back_presentation{
+      border-radius: 20px;
+      margin-right: 20px;
+      border: 2px solid #A208C9;
+      padding-inline: 45px;
+      cursor: pointer;
+    }
+  }
+}

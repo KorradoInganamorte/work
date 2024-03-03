@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "drukwidecyr";
+  src: url("../../assets/fonts/drukwidecyr-bold.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.wrapper_content {
+  margin: 12px 50px 60px;
+  .title {
+    color: rgb(0, 0, 0);
+    font-family: "drukwidecyr", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 3.5%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .sub_text {
+    margin-top: 63px;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 3.5%;
+    text-align: center;
+  }
+
+  .wrapper_photo_area {
+    position: relative;
+    margin: 68px auto;
+    width: 423px;
+    height: 423px;
+    background: #fff;
+    padding: 7px;
+    .photo {
+      margin: 7px auto;
+      width: 409px;
+      height: 409px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.18);
+      img {
+      }
+    }
+    .rotate_btns {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      .rotate_btn:last-child {
+        transform: scaleX(-1);
+      }
+    }
+  }
+
+  .wrapper_btns {
+    width: 723px;
+    margin: 0 auto;
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      button {
+        width: 350px;
+    }
+    }
+  }
+}

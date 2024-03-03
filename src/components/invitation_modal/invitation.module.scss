@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@font-face {
+  font-family: "drukwidecyr";
+  src: url("../../assets/fonts/drukwidecyr-bold.ttf");
+}
+
+.content_container {
+  margin: 50px 55px 104px;
+  .title {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: "drukwidecyr", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .sub_title {
+    display: block;
+    margin-top: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    color: rgb(39, 39, 39);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .wrapper_input {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input {
+      background: transparent;
+    }
+    input::placeholder {
+      color: rgb(155, 155, 155);
+      font-family: "Montserrat";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  }
+  .wrapper_btn{
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
